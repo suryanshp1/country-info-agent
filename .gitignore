@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Environment variables
+.env.*
+*.env
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Mypy / type checking
+.mypy_cache/
+.dmypy.json
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# FastAPI specific (optional)
+*.uvicorn.log
+
+# Docker (if used)
+*.pid
+*.seed
+
+# Temporary files
+*.swp
+*.tmp
